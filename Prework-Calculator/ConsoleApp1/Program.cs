@@ -10,23 +10,23 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            if (args.Length == 3)
+            if (args.Length == 3 && int.TryParse(args[0], out int a) && int.TryParse(args[1], out int b))
                 switch (args[2])
                 {
                     case "add":
-                        Console.WriteLine(Program.add(args[0], args[1]));
+                        Console.WriteLine(Program.add(a, b));
                         break;
 
                     case "subtract":
-                        Console.WriteLine(Program.subtract(args[0], args[1]));
+                        Console.WriteLine(Program.subtract(a, b));
                         break;
 
                     case "multiply":
-                        Console.WriteLine(Program.multiply(args[0], args[1]));
+                        Console.WriteLine(Program.multiply(a, b));
                         break;
 
                     case "divide":
-                        Console.WriteLine(Program.divide(args[0], args[1]));
+                        Console.WriteLine(Program.divide(a, b));
                         break;
 
                     default:
@@ -36,5 +36,9 @@ namespace ConsoleApp1
             else Console.WriteLine("Please provide 2 numbers and an action (add, subtract, multiply, divide).");
         }
 
+        static int add(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
