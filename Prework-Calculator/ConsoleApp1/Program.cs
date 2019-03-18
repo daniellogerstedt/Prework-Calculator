@@ -30,15 +30,20 @@ namespace ConsoleApp1
                         break;
 
                     default:
-                        Console.WriteLine("Please provide 2 numbers and an action (add, subtract, multiply, divide).");
+                        Console.WriteLine("Please provide 2 integers and an action (add, subtract, multiply, divide).");
                         break;
                 }
-            else Console.WriteLine("Please provide 2 numbers and an action (add, subtract, multiply, divide).");
+            else Console.WriteLine("Please provide 2 integers and an action (add, subtract, multiply, divide).");
         }
 
         static int add(int a, int b)
         {
             return a + b;
+        }
+
+        static int subtract(int a, int b)
+        {
+            return a - b;
         }
     }
 }
