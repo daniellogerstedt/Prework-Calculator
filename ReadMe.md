@@ -16,4 +16,4 @@ TryParse found at https://docs.microsoft.com/en-us/dotnet/csharp/programming-gui
 
 ## Screen Captures:
 
-<img src="./assets/runtimeexample.png" height=500 />
+<img src="./assets/runtimeexample.PNG" height=500 />
