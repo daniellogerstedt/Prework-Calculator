@@ -13,3 +13,7 @@ This is a calculator for the command line, it allows adding, subtracting, multip
 
 C# 7.0 in a Nutshell book.
 TryParse found at https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number
+
+## Screen Captures:
+
+<img src="./assets/runtimeexample.png" height=500 />
